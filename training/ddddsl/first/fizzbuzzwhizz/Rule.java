@@ -6,9 +6,4 @@ public interface Rule
 
 	boolean isAccepted();
 
-	default boolean isFinished()
-	{
-		return false;
-	}
-
 }
